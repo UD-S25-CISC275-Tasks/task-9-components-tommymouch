@@ -5,7 +5,7 @@
 
     return (
       <div>
-        <button onClick={() => setIsVisible(!isVisible)}>
+        <button onClick={() => {setIsVisible(!isVisible)}}>
           {isVisible ? 'Hide Answer' : 'Reveal Answer'}
         </button>
         {isVisible && <p>The answer is 42.</p>}
