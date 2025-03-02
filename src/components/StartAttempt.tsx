@@ -1,3 +1,4 @@
+<<<<<<< HEAD
   import React, { useState } from 'react';
 
   const StartAttempt: React.FC = () => {
@@ -31,3 +32,11 @@
   };
 
   export default StartAttempt;
+=======
+import React, { useState } from "react";
+import { Button } from "react-bootstrap";
+
+export function StartAttempt(): React.JSX.Element {
+    return <div>Start Attempt</div>;
+}
+>>>>>>> origin/task-components

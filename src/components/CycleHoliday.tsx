@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Button } from "react-bootstrap";
 
 export function CycleHoliday(): React.JSX.Element {
+<<<<<<< HEAD
     // Put the holidays in alphabetical order (for the "Alphabet" button)
     const alphaHolidays = [
         "🎄 Christmas",
@@ -55,3 +56,7 @@ export function CycleHoliday(): React.JSX.Element {
         </div>
     );
 }
+=======
+    return <div>Cycle Holiday</div>;
+}
+>>>>>>> origin/task-components

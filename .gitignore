@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/task-components
 build/
 
 # Logs
@@ -133,6 +136,7 @@ package-lock.json
 .yarn/unplugged
 .yarn/build-state.yml
 .yarn/install-state.gz
+<<<<<<< HEAD
 .pnp.*
 =======
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
@@ -159,3 +163,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 >>>>>>> solved-state
+=======
+.pnp.*
+>>>>>>> origin/task-components
