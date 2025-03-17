@@ -1,20 +1,16 @@
 // You will not need to modify this file
 
 import React from "react";
-<<<<<<< HEAD
-import ReactDOM from "react-dom/client";
-=======
-import ReactDOM from "react-dom";
->>>>>>> origin/task-state
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import { createRoot } from "react-dom/client";
 
-ReactDOM.render(
+const root = createRoot(document.getElementById("root") as HTMLElement);
+root.render(
     <React.StrictMode>
         <App />
-    </React.StrictMode>,
-    document.getElementById("root")
+    </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
