@@ -10,7 +10,9 @@ function ShoveBoxButton({
 }) {
     return (
         <Button
-            onClick={() => setPosition(position + 4)}
+            onClick={() => {
+                setPosition(position + 4);
+            }}
             // The test looks for a button, so "Shove the Box" is fine
         >
             Shove the Box
